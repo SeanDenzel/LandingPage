@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ACC8E5;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    background: #4FACFE;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: 3px solid #4FACFE;
+    color: #000000;
+}
+
+h1 {
+    color: #000000;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav {
+    background: linear-gradient(45deg, #4FACFE, #4FACFE);
+    padding: 15px 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+}
+
+nav ul li a:hover, .active a {
+    background: #ACC8E5;
+    color: #000000;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+nav ul li i {
+    color: #000000;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+nav ul li:hover i {
+    color: #000000;
+    transition: 0.3s;
+}
